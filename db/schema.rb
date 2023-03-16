@@ -65,17 +65,12 @@ ActiveRecord::Schema.define(version: 2023_03_16_180711) do
     t.string "story", limit: 255
   end
 
-  create_table "user", force: :cascade do |t|
+  create_table "users", force: :cascade do |t|
     t.string "name"
     t.string "email"
     t.string "password_digest"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-  end
-
-  create_table "users", id: :serial, force: :cascade do |t|
-    t.string "email", limit: 255
-    t.string "password", limit: 255
   end
 
   add_foreign_key "contributions", "stories", name: "contributions_story_id_fkey", on_delete: :cascade
