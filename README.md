@@ -29,3 +29,12 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 - Bootstrap 5
 - PostgreSQL 9.x
 - Stripe
+
+## Screenshot
+![`Main Page`] (https://github.com/wojeong/Jungle/blob/master/docs/Main%20Page.png)
+![`Main Page with Sold Out`] (https://github.com/wojeong/Jungle/blob/master/docs/Main_Page_Sold_Out.png)
+![`Product Page with Sold Out`] (https://github.com/wojeong/Jungle/blob/master/docs/Product_Page_Sold_Out.png)
+![`Sign Up Page`] (https://github.com/wojeong/Jungle/blob/master/docs/Signup_page.png)
+!['Dashboard] (https://github.com/wojeong/Jungle/blob/master/docs/Dashboard_Page.png)
+![`Cart`] (https://github.com/wojeong/Jungle/blob/master/docs/Cart.png)
+![`Categories`] (https://github.com/wojeong/Jungle/blob/master/docs/Categories_Page.png)
